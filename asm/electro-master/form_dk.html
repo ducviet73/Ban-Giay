@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="css/dn_dk.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://static1.cafeland.vn/cafelandData/upload/tintuc/doanhnhan/2020/03/tuan-04/7-1585211245.jpg" alt="Background" class="background-image">
+    <div class="form-container">
+      <h2>Đăng ký</h2>
+      <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+        
+        <button type="submit">Đăng ký</button>
+        <a href="form_dn.html">Bạn đã có tài khoản ?</a>
+      </form>
+      <div id="message"></div>
+    </div>
+  </div>
+
+</body>
+    <script type="module" src="js/form_dk.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js "></script>
+</html>
